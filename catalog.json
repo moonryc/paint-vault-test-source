@@ -5,96 +5,84 @@
       "brand": "Test Brand",
       "range": "Base",
       "name": "Sample Blue",
-      "colorHex": "#2244bb",
-      "imageUrl": "images/paint-blue.png"
+      "colorHex": "#2244bb"
     },
     {
       "id": "test-source-paint-green",
       "brand": "Test Brand",
       "range": "Base",
       "name": "Sample Green",
-      "colorHex": "#33aa55",
-      "imageUrl": "images/paint-green.png"
+      "colorHex": "#33aa55"
     },
     {
       "id": "test-source-paint-black",
       "brand": "Test Brand",
       "range": "Base",
       "name": "Obsidian Black",
-      "colorHex": "#242631",
-      "imageUrl": "images/paint-black.png"
+      "colorHex": "#242631"
     },
     {
       "id": "test-source-paint-ivory",
       "brand": "Test Brand",
       "range": "Layer",
       "name": "Ivory Bone",
-      "colorHex": "#e8dfbd",
-      "imageUrl": "images/paint-ivory.png"
+      "colorHex": "#e8dfbd"
     },
     {
       "id": "test-source-paint-gold",
       "brand": "Test Brand",
       "range": "Metallic",
       "name": "Burnished Gold",
-      "colorHex": "#c79a40",
-      "imageUrl": "images/paint-gold.png"
+      "colorHex": "#c79a40"
     },
     {
       "id": "test-source-paint-red",
       "brand": "Test Brand",
       "range": "Base",
       "name": "Crimson Red",
-      "colorHex": "#a92f43",
-      "imageUrl": "images/paint-red.png"
+      "colorHex": "#a92f43"
     },
     {
       "id": "test-source-paint-silver",
       "brand": "Test Brand",
       "range": "Metallic",
       "name": "Cold Steel",
-      "colorHex": "#9aa9b1",
-      "imageUrl": "images/paint-silver.png"
+      "colorHex": "#9aa9b1"
     },
     {
       "id": "test-source-paint-brown",
       "brand": "Test Brand",
       "range": "Base",
       "name": "Worn Leather",
-      "colorHex": "#73523c",
-      "imageUrl": "images/paint-brown.png"
+      "colorHex": "#73523c"
     },
     {
       "id": "test-source-paint-violet",
       "brand": "Test Brand",
       "range": "Shade",
       "name": "Violet Shade",
-      "colorHex": "#725285",
-      "imageUrl": "images/paint-violet.png"
+      "colorHex": "#725285"
     },
     {
       "id": "test-source-paint-flesh",
       "brand": "Test Brand",
       "range": "Layer",
       "name": "Warm Flesh",
-      "colorHex": "#c48670",
-      "imageUrl": "images/paint-flesh.png"
+      "colorHex": "#c48670"
     },
     {
       "id": "test-source-paint-sand",
       "brand": "Test Brand",
       "range": "Base",
       "name": "Sandstone",
-      "colorHex": "#c8a776",
-      "imageUrl": "images/paint-sand.png"
+      "colorHex": "#c8a776"
     },
     {
       "id": "test-source-paint-verdigris",
       "brand": "Test Brand",
       "range": "Technical",
       "name": "Verdigris Patina",
-      "colorHex": "#48a69a",
-      "imageUrl": "images/paint-verdigris.png"
+      "colorHex": "#48a69a"
     }
   ],
   "schemes": [
