@@ -23,6 +23,11 @@
       "category": "BLUE",
       "entries": [
         {
+          "id": "test-source-basecoat",
+          "type": "STEP",
+          "label": "BASECOAT"
+        },
+        {
           "id": "test-source-step-blue",
           "type": "PAINT",
           "paintId": "test-source-paint-blue"
