@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "name": "Paint Vault test source",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": [],
   "catalog": "catalog.json",
   "assets": "assets.json"

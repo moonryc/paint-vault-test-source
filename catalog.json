@@ -5,8 +5,15 @@
       "brand": "Test Brand",
       "range": "Base",
       "name": "Sample Blue",
-      "colorHex": "#3366cc",
+      "colorHex": "#2244bb",
       "imageUrl": "images/sample.png"
+    },
+    {
+      "id": "test-source-paint-green",
+      "brand": "Test Brand",
+      "range": "Base",
+      "name": "Sample Green",
+      "colorHex": "#33aa55"
     }
   ],
   "schemes": [
