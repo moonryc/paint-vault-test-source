@@ -6,14 +6,95 @@
       "range": "Base",
       "name": "Sample Blue",
       "colorHex": "#2244bb",
-      "imageUrl": "images/sample.png"
+      "imageUrl": "images/paint-blue.png"
     },
     {
       "id": "test-source-paint-green",
       "brand": "Test Brand",
       "range": "Base",
       "name": "Sample Green",
-      "colorHex": "#33aa55"
+      "colorHex": "#33aa55",
+      "imageUrl": "images/paint-green.png"
+    },
+    {
+      "id": "test-source-paint-black",
+      "brand": "Test Brand",
+      "range": "Base",
+      "name": "Obsidian Black",
+      "colorHex": "#242631",
+      "imageUrl": "images/paint-black.png"
+    },
+    {
+      "id": "test-source-paint-ivory",
+      "brand": "Test Brand",
+      "range": "Layer",
+      "name": "Ivory Bone",
+      "colorHex": "#e8dfbd",
+      "imageUrl": "images/paint-ivory.png"
+    },
+    {
+      "id": "test-source-paint-gold",
+      "brand": "Test Brand",
+      "range": "Metallic",
+      "name": "Burnished Gold",
+      "colorHex": "#c79a40",
+      "imageUrl": "images/paint-gold.png"
+    },
+    {
+      "id": "test-source-paint-red",
+      "brand": "Test Brand",
+      "range": "Base",
+      "name": "Crimson Red",
+      "colorHex": "#a92f43",
+      "imageUrl": "images/paint-red.png"
+    },
+    {
+      "id": "test-source-paint-silver",
+      "brand": "Test Brand",
+      "range": "Metallic",
+      "name": "Cold Steel",
+      "colorHex": "#9aa9b1",
+      "imageUrl": "images/paint-silver.png"
+    },
+    {
+      "id": "test-source-paint-brown",
+      "brand": "Test Brand",
+      "range": "Base",
+      "name": "Worn Leather",
+      "colorHex": "#73523c",
+      "imageUrl": "images/paint-brown.png"
+    },
+    {
+      "id": "test-source-paint-violet",
+      "brand": "Test Brand",
+      "range": "Shade",
+      "name": "Violet Shade",
+      "colorHex": "#725285",
+      "imageUrl": "images/paint-violet.png"
+    },
+    {
+      "id": "test-source-paint-flesh",
+      "brand": "Test Brand",
+      "range": "Layer",
+      "name": "Warm Flesh",
+      "colorHex": "#c48670",
+      "imageUrl": "images/paint-flesh.png"
+    },
+    {
+      "id": "test-source-paint-sand",
+      "brand": "Test Brand",
+      "range": "Base",
+      "name": "Sandstone",
+      "colorHex": "#c8a776",
+      "imageUrl": "images/paint-sand.png"
+    },
+    {
+      "id": "test-source-paint-verdigris",
+      "brand": "Test Brand",
+      "range": "Technical",
+      "name": "Verdigris Patina",
+      "colorHex": "#48a69a",
+      "imageUrl": "images/paint-verdigris.png"
     }
   ],
   "schemes": [
@@ -23,22 +104,327 @@
       "category": "BLUE",
       "entries": [
         {
-          "id": "test-source-basecoat",
+          "id": "test-source-scheme-blue-milestone-0",
+          "type": "MILESTONE",
+          "label": "GET READY!"
+        },
+        {
+          "id": "test-source-scheme-blue-step-1",
           "type": "STEP",
           "label": "BASECOAT"
         },
         {
-          "id": "test-source-step-blue",
+          "id": "test-source-scheme-blue-paint-2",
           "type": "PAINT",
           "paintId": "test-source-paint-blue"
         },
         {
-          "id": "test-source-recipe-image",
+          "id": "test-source-scheme-blue-step-3",
+          "type": "STEP",
+          "label": "LAYER"
+        },
+        {
+          "id": "test-source-scheme-blue-paint-4",
+          "type": "PAINT",
+          "paintId": "test-source-paint-silver"
+        },
+        {
+          "id": "test-source-scheme-blue-milestone-5",
+          "type": "MILESTONE",
+          "label": "YOU'RE READY!"
+        },
+        {
+          "id": "test-source-scheme-blue-image-6",
           "type": "IMAGE",
           "imageUrl": "images/recipe-demo.png",
           "thumbnailUrl": "images/recipe-demo.png",
           "imageType": "BATTLE",
           "method": "CLASSIC"
+        }
+      ]
+    },
+    {
+      "id": "test-source-scheme-ranger",
+      "name": "Forest Ranger",
+      "category": "GREEN",
+      "entries": [
+        {
+          "id": "test-source-scheme-ranger-milestone-0",
+          "type": "MILESTONE",
+          "label": "GET READY!"
+        },
+        {
+          "id": "test-source-scheme-ranger-step-1",
+          "type": "STEP",
+          "label": "UNDERCOAT"
+        },
+        {
+          "id": "test-source-scheme-ranger-paint-2",
+          "type": "PAINT",
+          "paintId": "test-source-paint-brown"
+        },
+        {
+          "id": "test-source-scheme-ranger-step-3",
+          "type": "STEP",
+          "label": "BASECOAT"
+        },
+        {
+          "id": "test-source-scheme-ranger-paint-4",
+          "type": "PAINT",
+          "paintId": "test-source-paint-green"
+        },
+        {
+          "id": "test-source-scheme-ranger-step-5",
+          "type": "STEP",
+          "label": "DETAIL"
+        },
+        {
+          "id": "test-source-scheme-ranger-paint-6",
+          "type": "PAINT",
+          "paintId": "test-source-paint-gold"
+        },
+        {
+          "id": "test-source-scheme-ranger-step-7",
+          "type": "STEP",
+          "label": "HIGHLIGHT"
+        },
+        {
+          "id": "test-source-scheme-ranger-paint-8",
+          "type": "PAINT",
+          "paintId": "test-source-paint-ivory"
+        },
+        {
+          "id": "test-source-scheme-ranger-milestone-9",
+          "type": "MILESTONE",
+          "label": "YOU'RE READY!"
+        }
+      ]
+    },
+    {
+      "id": "test-source-scheme-knight",
+      "name": "Crimson Knight",
+      "category": "RED",
+      "entries": [
+        {
+          "id": "test-source-scheme-knight-milestone-0",
+          "type": "MILESTONE",
+          "label": "GET READY!"
+        },
+        {
+          "id": "test-source-scheme-knight-step-1",
+          "type": "STEP",
+          "label": "PRIMER"
+        },
+        {
+          "id": "test-source-scheme-knight-paint-2",
+          "type": "PAINT",
+          "paintId": "test-source-paint-black"
+        },
+        {
+          "id": "test-source-scheme-knight-step-3",
+          "type": "STEP",
+          "label": "BASECOAT"
+        },
+        {
+          "id": "test-source-scheme-knight-paint-4",
+          "type": "PAINT",
+          "paintId": "test-source-paint-red"
+        },
+        {
+          "id": "test-source-scheme-knight-step-5",
+          "type": "STEP",
+          "label": "DETAIL"
+        },
+        {
+          "id": "test-source-scheme-knight-paint-6",
+          "type": "PAINT",
+          "paintId": "test-source-paint-gold"
+        },
+        {
+          "id": "test-source-scheme-knight-step-7",
+          "type": "STEP",
+          "label": "HIGHLIGHT"
+        },
+        {
+          "id": "test-source-scheme-knight-paint-8",
+          "type": "PAINT",
+          "paintId": "test-source-paint-silver"
+        },
+        {
+          "id": "test-source-scheme-knight-milestone-9",
+          "type": "MILESTONE",
+          "label": "YOU'RE READY!"
+        }
+      ]
+    },
+    {
+      "id": "test-source-scheme-seer",
+      "name": "Arcane Seer",
+      "category": "PURPLE",
+      "entries": [
+        {
+          "id": "test-source-scheme-seer-milestone-0",
+          "type": "MILESTONE",
+          "label": "GET READY!"
+        },
+        {
+          "id": "test-source-scheme-seer-step-1",
+          "type": "STEP",
+          "label": "UNDERCOAT"
+        },
+        {
+          "id": "test-source-scheme-seer-paint-2",
+          "type": "PAINT",
+          "paintId": "test-source-paint-violet"
+        },
+        {
+          "id": "test-source-scheme-seer-step-3",
+          "type": "STEP",
+          "label": "LAYER"
+        },
+        {
+          "id": "test-source-scheme-seer-paint-4",
+          "type": "PAINT",
+          "paintId": "test-source-paint-blue"
+        },
+        {
+          "id": "test-source-scheme-seer-step-5",
+          "type": "STEP",
+          "label": "DETAIL"
+        },
+        {
+          "id": "test-source-scheme-seer-paint-6",
+          "type": "PAINT",
+          "paintId": "test-source-paint-ivory"
+        },
+        {
+          "id": "test-source-scheme-seer-step-7",
+          "type": "STEP",
+          "label": "HIGHLIGHT"
+        },
+        {
+          "id": "test-source-scheme-seer-paint-8",
+          "type": "PAINT",
+          "paintId": "test-source-paint-gold"
+        },
+        {
+          "id": "test-source-scheme-seer-milestone-9",
+          "type": "MILESTONE",
+          "label": "YOU'RE READY!"
+        }
+      ]
+    },
+    {
+      "id": "test-source-scheme-scout",
+      "name": "Desert Scout",
+      "category": "BROWN",
+      "entries": [
+        {
+          "id": "test-source-scheme-scout-milestone-0",
+          "type": "MILESTONE",
+          "label": "GET READY!"
+        },
+        {
+          "id": "test-source-scheme-scout-step-1",
+          "type": "STEP",
+          "label": "BASECOAT"
+        },
+        {
+          "id": "test-source-scheme-scout-paint-2",
+          "type": "PAINT",
+          "paintId": "test-source-paint-sand"
+        },
+        {
+          "id": "test-source-scheme-scout-step-3",
+          "type": "STEP",
+          "label": "SHADE"
+        },
+        {
+          "id": "test-source-scheme-scout-paint-4",
+          "type": "PAINT",
+          "paintId": "test-source-paint-brown"
+        },
+        {
+          "id": "test-source-scheme-scout-step-5",
+          "type": "STEP",
+          "label": "LAYER"
+        },
+        {
+          "id": "test-source-scheme-scout-paint-6",
+          "type": "PAINT",
+          "paintId": "test-source-paint-flesh"
+        },
+        {
+          "id": "test-source-scheme-scout-step-7",
+          "type": "STEP",
+          "label": "DETAIL"
+        },
+        {
+          "id": "test-source-scheme-scout-paint-8",
+          "type": "PAINT",
+          "paintId": "test-source-paint-green"
+        },
+        {
+          "id": "test-source-scheme-scout-milestone-9",
+          "type": "MILESTONE",
+          "label": "YOU'RE READY!"
+        }
+      ]
+    },
+    {
+      "id": "test-source-scheme-relic",
+      "name": "Weathered Relic",
+      "category": "GREY",
+      "entries": [
+        {
+          "id": "test-source-scheme-relic-milestone-0",
+          "type": "MILESTONE",
+          "label": "GET READY!"
+        },
+        {
+          "id": "test-source-scheme-relic-step-1",
+          "type": "STEP",
+          "label": "BASECOAT"
+        },
+        {
+          "id": "test-source-scheme-relic-paint-2",
+          "type": "PAINT",
+          "paintId": "test-source-paint-silver"
+        },
+        {
+          "id": "test-source-scheme-relic-step-3",
+          "type": "STEP",
+          "label": "SHADE"
+        },
+        {
+          "id": "test-source-scheme-relic-paint-4",
+          "type": "PAINT",
+          "paintId": "test-source-paint-black"
+        },
+        {
+          "id": "test-source-scheme-relic-step-5",
+          "type": "STEP",
+          "label": "TECHNICAL"
+        },
+        {
+          "id": "test-source-scheme-relic-paint-6",
+          "type": "PAINT",
+          "paintId": "test-source-paint-verdigris"
+        },
+        {
+          "id": "test-source-scheme-relic-step-7",
+          "type": "STEP",
+          "label": "DETAIL"
+        },
+        {
+          "id": "test-source-scheme-relic-paint-8",
+          "type": "PAINT",
+          "paintId": "test-source-paint-brown"
+        },
+        {
+          "id": "test-source-scheme-relic-milestone-9",
+          "type": "MILESTONE",
+          "label": "YOU'RE READY!"
         }
       ]
     }
@@ -48,20 +434,143 @@
       "id": "test-source-template-blue",
       "name": "Sample miniature",
       "manufacturer": "Test Brand",
-      "faction": "Fixtures",
+      "faction": "Demo Collection",
       "categories": [
-        "Fixtures"
+        "Demo Collection",
+        "Sci-fi"
       ],
-      "imageUrl": "images/sample.png",
+      "imageUrl": "images/template-blue.png",
       "schemeIds": [
         "test-source-scheme-blue"
       ],
       "paints": [
         {
-          "paintId": "test-source-paint-blue",
-          "step": "BASING",
+          "paintId": "test-source-paint-black",
+          "step": "PRIMER",
           "notes": "",
           "sortOrder": 0
+        },
+        {
+          "paintId": "test-source-paint-sand",
+          "step": "BASING",
+          "notes": "",
+          "sortOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "test-source-template-ranger",
+      "name": "Ranger Captain",
+      "manufacturer": "Test Brand",
+      "faction": "Demo Collection",
+      "categories": [
+        "Demo Collection",
+        "Fantasy"
+      ],
+      "imageUrl": "images/template-ranger.png",
+      "schemeIds": [
+        "test-source-scheme-ranger",
+        "test-source-scheme-scout"
+      ],
+      "paints": [
+        {
+          "paintId": "test-source-paint-brown",
+          "step": "PRIMER",
+          "notes": "",
+          "sortOrder": 0
+        },
+        {
+          "paintId": "test-source-paint-sand",
+          "step": "BASING",
+          "notes": "",
+          "sortOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "test-source-template-knight",
+      "name": "Knight Errant",
+      "manufacturer": "Test Brand",
+      "faction": "Demo Collection",
+      "categories": [
+        "Demo Collection",
+        "Fantasy"
+      ],
+      "imageUrl": "images/template-knight.png",
+      "schemeIds": [
+        "test-source-scheme-knight",
+        "test-source-scheme-relic"
+      ],
+      "paints": [
+        {
+          "paintId": "test-source-paint-black",
+          "step": "PRIMER",
+          "notes": "",
+          "sortOrder": 0
+        },
+        {
+          "paintId": "test-source-paint-sand",
+          "step": "BASING",
+          "notes": "",
+          "sortOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "test-source-template-seer",
+      "name": "Arcane Seer miniature",
+      "manufacturer": "Test Brand",
+      "faction": "Demo Collection",
+      "categories": [
+        "Demo Collection",
+        "Fantasy"
+      ],
+      "imageUrl": "images/template-seer.png",
+      "schemeIds": [
+        "test-source-scheme-seer",
+        "test-source-scheme-blue"
+      ],
+      "paints": [
+        {
+          "paintId": "test-source-paint-violet",
+          "step": "PRIMER",
+          "notes": "",
+          "sortOrder": 0
+        },
+        {
+          "paintId": "test-source-paint-sand",
+          "step": "BASING",
+          "notes": "",
+          "sortOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "test-source-template-sentinel",
+      "name": "Ruins Sentinel",
+      "manufacturer": "Test Brand",
+      "faction": "Demo Collection",
+      "categories": [
+        "Demo Collection",
+        "Sci-fi"
+      ],
+      "imageUrl": "images/template-relic.png",
+      "schemeIds": [
+        "test-source-scheme-relic",
+        "test-source-scheme-scout"
+      ],
+      "paints": [
+        {
+          "paintId": "test-source-paint-silver",
+          "step": "PRIMER",
+          "notes": "",
+          "sortOrder": 0
+        },
+        {
+          "paintId": "test-source-paint-sand",
+          "step": "BASING",
+          "notes": "",
+          "sortOrder": 1
         }
       ]
     }
