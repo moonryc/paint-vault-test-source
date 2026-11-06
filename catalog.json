@@ -1,0 +1,49 @@
+{
+  "paints": [
+    {
+      "id": "test-source-paint-blue",
+      "brand": "Test Brand",
+      "range": "Base",
+      "name": "Sample Blue",
+      "colorHex": "#3366cc",
+      "imageUrl": "images/sample.png"
+    }
+  ],
+  "schemes": [
+    {
+      "id": "test-source-scheme-blue",
+      "name": "Sample Blue scheme",
+      "category": "BLUE",
+      "entries": [
+        {
+          "id": "test-source-step-blue",
+          "type": "PAINT",
+          "paintId": "test-source-paint-blue"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "test-source-template-blue",
+      "name": "Sample miniature",
+      "manufacturer": "Test Brand",
+      "faction": "Fixtures",
+      "categories": [
+        "Fixtures"
+      ],
+      "imageUrl": "images/sample.png",
+      "schemeIds": [
+        "test-source-scheme-blue"
+      ],
+      "paints": [
+        {
+          "paintId": "test-source-paint-blue",
+          "step": "BASING",
+          "notes": "",
+          "sortOrder": 0
+        }
+      ]
+    }
+  ]
+}
