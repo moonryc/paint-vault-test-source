@@ -26,6 +26,14 @@
           "id": "test-source-step-blue",
           "type": "PAINT",
           "paintId": "test-source-paint-blue"
+        },
+        {
+          "id": "test-source-recipe-image",
+          "type": "IMAGE",
+          "imageUrl": "images/recipe-demo.png",
+          "thumbnailUrl": "images/recipe-demo.png",
+          "imageType": "BATTLE",
+          "method": "CLASSIC"
         }
       ]
     }
